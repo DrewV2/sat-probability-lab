@@ -1,0 +1,17 @@
+# Local Python environment and generated caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated database, exports, and notebook execution output
+data/*.duckdb*
+artifacts/
+.jupyter/
+
+# Local configuration and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
