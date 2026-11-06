@@ -4,7 +4,7 @@ I'm building a SAT predictor that estimates a likely low, median, and high score
 
 This is a personal project where I'm applying statistics and computer science together. I'm also using it to get more comfortable with Python, Jupyter, DuckDB, SQL, and data visualization—topics relevant to my work on the BioCosmos subteam of the BioVision lab. The SAT project is independent of the lab, but gives me another setting to work with these concepts.
 
-**The project is still in an early stage.** The answer-count model works under its stated assumptions. The SAT score conversion is experimental python.analysis.typeCheckingModeand has not been calibrated against actual scores.
+**The project is still in an early stage.** The answer-count model works under its stated assumptions. The SAT score conversion is experimental and has not been calibrated against actual scores.
 
 ## The approach
 
@@ -48,6 +48,10 @@ The similarity experiment helps me explore vector representations and SQL rankin
 - [ ] Measure interval coverage, interval width, and median prediction error.
 
 I keep more detailed notes in [PROGRESS.md](PROGRESS.md).
+
+## Website plans
+
+I plan to build a website for all four SAT modules, with an optional way to contribute scenarios for aggregate graphs. The initial statistic will be the average of contributed median predictions. The input decisions, proposed tech stack, and build order are recorded in [WEBSITE_PLAN.md](WEBSITE_PLAN.md).
 
 ## Running locally
 
